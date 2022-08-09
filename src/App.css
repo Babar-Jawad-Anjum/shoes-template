@@ -1,0 +1,50 @@
+.LargeImgDiv img
+{ 
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.SmallImgDiv
+{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform .2s;
+    width: 75px;
+}
+.SmallImgDiv:hover
+{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.SmallImgDiv img
+{
+    border-radius: 5px;
+    width: 75px;
+
+}
+.cart-button:hover
+{
+    background-color: rgb(107 175 172);
+    color: white;
+}
+.desc-bord
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nav-img
+{
+    height: 45px;
+    width: 45px;
+    /* border: 2px solid red; */
+    border-radius: 100px;
+}
+.nav-img img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+}
